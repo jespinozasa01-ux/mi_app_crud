@@ -1,3 +1,5 @@
+import os
+os.environ["STREAMLIT_WATCHDOG_DISABLE"] = "true"
 import streamlit as st
 from pymongo import MongoClient
 
